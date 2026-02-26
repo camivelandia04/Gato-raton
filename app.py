@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Asistente de lectura para estudiantes")
-image = Image.open('gato_raton.png')
+image = Image.open('jovenescuchando.png')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
@@ -19,7 +19,7 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
+st.subheader("¿De qué trata?.")
 st.write('¡Aqui puedes poner tus textos o articulos académicos y yo los pasaré a audio para que puedas esuccharlos mientras vas al trabajo, a la u o mientras haces otras actividades'
         
         )
